@@ -29,7 +29,7 @@ def on_ui_tabs():
             outputs = [gallery],
         )
 
-        return [(ui_component, "Extension Example", "extension_example_tab")]
+        return [(ui_component, "An's Extension", "extension_example_tab")]
 
 def dummy_images(checkbox):
     if (checkbox):
